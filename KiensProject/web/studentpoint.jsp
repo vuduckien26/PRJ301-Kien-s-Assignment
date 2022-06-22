@@ -12,6 +12,11 @@
         <title>Student Point</title>
     </head>
     <body>
+        <style>
+            table, th, td {
+                border:1px solid black;
+            }
+        </style>
         <h1>FPT University</h1>
         <div>
             <h3>Student name: Nguyen Van A</h3>
@@ -26,13 +31,13 @@
             </select>
         </div>
         <div>
-            <table>
-                <thead>Test</thead>
-                <thead>Lab</thead>
-                <thead>Assignment</thead>
-                <thead>PE</thead>
-                <thead>FE</thead>
-                <thead>Function</thead>
+            <table style="margin-top: 10px">
+                <th>Test</th>
+                <th>Lab</th>
+                <th>Assignment</th>
+                <th>PE</th>
+                <th>FE</th>
+                <th>Function</th>
             <tbody>
                 <tr>
                     <td>4</td>
@@ -40,11 +45,11 @@
                     <td>7</td>
                     <td>8</td>
                     <td>9</td>
-                    <td><a href="#">Report</a></td>
+                    <td><a href="#">Update</a></td>
                 </tr>
             </tbody>
             </table>
         </div>
-        <button>Return</button>
+        <button style="margin-top: 10px">Return</button>
     </body>
 </html>
